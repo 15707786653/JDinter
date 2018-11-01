@@ -127,16 +127,52 @@ input{
 .txt-box:hover{
     height: 40px;
 }
-.txt-box li{
+.txtItem{
     width: 12.5%;
     background-color: #333;
     margin-right: 2px;
     color: #fff;
     text-align: center;
 }
-.txt-box li:hover{
+.txtItem:hover,.heighlightColor{
     background-color: rgba(252, 164, 2, 0.829);
 }
-.txt-box li:last-child{
+.txtItem:last-child{
     margin:0;
+}
+.normalColor{
+    background-color: rgba(0,0,0,0,);
+}
+
+
+.hm_nav{
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+.hm_nav>ul{
+    width: 100%;
+    padding: 10px 0;
+}
+.hm_nav>ul>li{
+    width: 25%;
+    float: left;
+}
+.hm_nav>ul>li>a{
+    display: block;
+}
+.hm_nav>ul>li>a>img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+.hm_nav>ul>li>a>p{
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    padding: 6px 0;
+}
+ul li{
+    display: inline;
 }
